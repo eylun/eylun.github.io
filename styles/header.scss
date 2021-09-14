@@ -1,0 +1,52 @@
+.header {
+  font-size: 20px;
+  width: 100%;
+  padding: 2em 0 1em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &_container {
+    padding: 0 3em 0.5em 3em;
+    max-width: 80%;
+    width: 80%;
+    border-bottom: 2px solid #999999;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  &_name {
+    font-size: 1.5rem;
+    color: brown;
+    border: none;
+    background-color: white;
+    margin: 0 0.25em 0 0.25em;
+
+    &:hover {
+      color: rgb(121, 32, 32);
+    }
+
+    &:active {
+      color:rgb(75, 19, 19);
+    }
+  }
+
+  &_selection {
+    color: brown;
+
+    &_option {
+      border: none;
+      background-color: white;
+      margin: 0 0.25em 0 0.25em;
+      border-bottom: 1px solid #999999;
+
+      &:hover {
+        color: rgb(121, 32, 32);
+      }
+
+      &:active {
+        color:rgb(75, 19, 19);
+      }
+    }
+  }
+}
